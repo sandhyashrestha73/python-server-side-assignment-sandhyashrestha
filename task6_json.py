@@ -10,7 +10,7 @@ file = open("products.json", "w")
 json.dump(products_data, file, indent=4)
 file.close()
 
-print("JSON file created ✔")
+print("JSON file created ")
 
 
 file = open("products.json", "r")
